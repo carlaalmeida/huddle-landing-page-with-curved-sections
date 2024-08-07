@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+    <script
+      src="https://kit.fontawesome.com/993ced87ba.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="Huddle logo" />
+        </a>
+        <a class="navbar-button button rounded outline">Try It Free</a>
+      </nav>
+    </header>
+
+    <section class="hero text-center container">
+      <div class="hero-content">
+        <h1 class="hero-title">Build The Community Your Fans Will Love</h1>
+        <p class="hero-text">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <a class="button rounded large shadow">Get Started For Free</a>
+      </div>
+      <img
+        class="hero-image"
+        src="images/screen-mockups.svg"
+        alt="Screen Mockups"
+      />
+    </section>
+
+    <main>
+      <section class="container stats">
+        <div class="stats-item">
+          <img
+            class="stats-item-icon"
+            src="images/icon-communities.svg"
+            alt=""
+          />
+          <span class="stats-item-value">1.4k+</span>
+          <span class="stats-item-title">Communities Formed</span>
+        </div>
+        <div class="stats-item">
+          <img class="stats-item-icon" src="images/icon-messages.svg" alt="" />
+          <span class="stats-item-value">2.7m+</span>
+          <span class="stats-item-title">Messages Sent</span>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feature bg-color">
+          <div class="container row justify-content-center text-centered">
+            <div class="feature-image">
+              <img src="images/illustration-grow-together.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h2 class="feature-title">Grow Together</h2>
+              <p>
+                Generate meaningful discussions with your audience and build a
+                strong, loyal community. Think of the insightful conversations
+                you miss out on with a feedback form.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="container row justify-content-center text-centered">
+            <div class="feature-image">
+              <img
+                class=""
+                src="images/illustration-flowing-conversation.svg"
+                alt=""
+              />
+            </div>
+            <div class="feature-text">
+              <h2 class="feature-title">Flowing Conversations</h2>
+              <p>
+                You wouldn't paginate a conversation in real life, so why do it
+                online? Our threads have just-in-time loading for a more natural
+                flow.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="feature bg-color">
+          <div class="container row justify-content-center text-centered">
+            <div class="feature-image">
+              <img class="" src="images/illustration-your-users.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h2 class="feature-title">Your Users</h2>
+              <p>
+                It takes no time at all to integrate Huddle with your app's
+                authentication solution. This means, once signed in to your app,
+                your users can start chatting immediately.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta container text-center">
+        <h2 class="cta-title">Ready To Build Your Community?</h2>
+        <button class="button rounded large shadow">Get Started For Free</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="contacts">
+            <!-- <p class="header"> -->
+            <img class="contacts-logo" src="images/icon-messages.svg" alt="" />
+            <h1 class="contacts-title">Huddle</h1>
+            <!-- </p> -->
+            <div class="contacts-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </div>
+            <div class="contacts-info">
+              <img class="contacts-icon" src="images/icon-phone.svg" alt="" />
+              <span> Phone: +1-543-123-4567</span>
+            </div>
+            <div class="contacts-info">
+              <img class="contacts-icon" src="images/icon-email.svg" alt="" />
+              <span>example@huddle.com</span>
+            </div>
+          </div>
+
+          <div class="socials">
+            <div class="social-item">
+              <a class="social-link" href="#" title="Facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+            </div>
+            <div class="social-item">
+              <a class="social-link" href="#" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="social-item">
+              <a class="social-link" href="#" title="Twitter">
+                <i class="fa-brands fa-square-twitter"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="newsletter">
+            <div class="newsletter-wrapper">
+              <h3 class="newsletter-title text-uppercase">Newsletter</h3>
+              <p class="newsletter-text">
+                To recieve tips on how to grow your community, sign up to our
+                weekly newsletter. We’ll never send you spam or pass on your
+                email address
+              </p>
+            </div>
+
+            <form class="newsletter-form" novalidate>
+              <input class="form-input" type="email" required />
+              <div class="error-message visually-hidden">
+                Check your email please
+              </div>
+              <button class="button form-button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="attribution-link"
+          >Frontend Mentor</a
+        >. Coded by
+        <a class="attribution-link" href="https://carlaalmeida.dev"
+          >carlaalmeida</a
+        >.
+      </p>
+    </footer>
+
+    <script>
+      const form = document.querySelector("form");
+      const email = document.querySelector("input[type=email");
+      const errorMsg = document.querySelector(".error-message");
+
+      email.addEventListener("change", (event) => {
+        setValidity(email.validity.valid);
+      });
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        setValidity(email.validity.valid);
+      });
+
+      function setValidity(valid) {
+        if (valid) {
+          email.classList.remove("invalid");
+          errorMsg.classList.add("visually-hidden");
+        } else {
+          email.classList.add("invalid");
+          errorMsg.classList.remove("visually-hidden");
+        }
+      }
+    </script>
+  </body>
+</html>
